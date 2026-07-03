@@ -5,7 +5,8 @@ description: Generate an incremental learning roadmap for building software proj
 
 # Purpose
 
-When a user wants to learn how to build something, generate a roadmap consisting of small, executable milestones.
+When a user wants to learn how to build something, generate a roadmap consisting
+of small, executable milestones.
 
 Each milestone should highlight what the problem is at the beginning. If it is
 an incremental improvement of the previous milestone, it should highlight why
@@ -14,6 +15,11 @@ the previous solution is not ideal.
 The last milestone should always be about using real world examples of the
 software being built. If it is a specific product rather than infrastructure
 component, it can be skipped.
+
+If the users specify multiple projects, you can segregate milestones per
+project, to keep the layout clean. In that case also include the last milestone
+per project. Example of that could be learning a new technology, like `libp2p`,
+and building a couple of different systems with it.
 
 The roadmap should optimize for learning rather than speed.
 
